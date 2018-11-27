@@ -13,6 +13,8 @@ OBJFILES =
 TESTFILES =
 
 ADDLIBS = ../gop/kaldi-gop.a ../decoder/kaldi-decoder.a \
+		  ../cudamatrix/kaldi-cudamatrix.a \
+		  ../thread/kaldi-thread.a \
           ../fstext/kaldi-fstext.a ../hmm/kaldi-hmm.a ../gmm/kaldi-gmm.a \
           ../tree/kaldi-tree.a ../util/kaldi-util.a \
           ../matrix/kaldi-matrix.a ../base/kaldi-base.a
